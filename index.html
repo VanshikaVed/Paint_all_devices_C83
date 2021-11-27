@@ -1,0 +1,36 @@
+<html>
+    
+<head>       
+    <title>
+            Paint What You Want
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="design_bg">
+<p class="heading">
+    Let's Draw!!
+</p>
+
+<canvas id="paint" width="800" height="600" class="paint_canvas"></canvas>
+       <br>
+       <span>
+          Colour-
+        <input type="color" id="colour_input">
+       </span>
+       <span>
+       Line Width- <input type="number" id="line_width_input" class="inputs">
+    </span>
+    <span>
+        <button type="button" class="reset" onclick="erase()">
+            Reset Canvas
+        </button>
+    </span>
+    <br>
+    <hr>
+        
+        <script src="main.js"></script>
+
+    </body>
+
+</html>
